@@ -6,6 +6,38 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
+   body {
+   	font-family: thonburi, arial, sans-serif;
+   	background: #336699;
+   	padding: 20px;
+   	}
+   	nav {
+   	border: 2px solid white;
+   	border-radius: 10px;
+   	background: #999966;
+   	}
+   	li {
+ 	display: inline;
+   	margin: 25px;
+   	}
+   	h2 {
+   	font-size: 24px;
+   	}
+   	p {
+   	font-size: 12px;
+   	line-height: 1.5;
+   	}
+   	img {
+   	border: 2px solid white;
+   	padding: 10px;
+   	margin: 20px 20px 20px 0px;
+   	}
+   	footer {
+   	border: 2px solid white;
+   	padding: 10px;
+   	background: #333366;
+   	}
+   	
 
 /* =============================================================================
    Page Styles
@@ -43,6 +75,3 @@ url('../fonts/FontName.svg#FontName') format('svg');
 font-weight: normal;
 font-style: normal; }
 */
-nav li {
-	display: inline;
-}
