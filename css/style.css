@@ -15,29 +15,46 @@ Copyright 2013, Josh Cope
    	border: 2px solid white;
    	border-radius: 10px;
    	background: #999966;
+   	height: 40px;
+   	width: 996px;
    	}
    	li {
- 	display: inline;
+   	display: inline;
    	margin: 25px;
    	}
    	h2 {
    	font-size: 24px;
+   	text-align: center;
    	}
    	p {
+   	font-family: thonburi, arial, sans-serif;
    	font-size: 12px;
    	line-height: 1.5;
+   	margin: 20px;
+   	padding: 20px;
    	}
    	img {
    	border: 2px solid white;
-   	padding: 10px;
+   	border-radius: 10px;
    	margin: 20px 20px 20px 0px;
    	}
    	footer {
    	border: 2px solid white;
+   	border-radius: 10px;
    	padding: 10px;
    	background: #333366;
+   	height: 50px;
+   	width: 996px;
    	}
-   	
+   	footer p {
+   	font-size: 15px;
+   	padding: 10px;
+   	margin: 10px;
+   	float: left;
+   	}
+   	footer #design {
+   	float: right;
+   	}	
 
 /* =============================================================================
    Page Styles
