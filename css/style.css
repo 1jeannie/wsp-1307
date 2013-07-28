@@ -11,6 +11,9 @@ Copyright 2013, Josh Cope
    	background: #336699;
    	padding: 20px;
    	}
+   	header {
+   	width: 996px;
+   	}
    	nav {
    	border: 2px solid white;
    	border-radius: 10px;
@@ -22,16 +25,19 @@ Copyright 2013, Josh Cope
    	display: inline;
    	margin: 25px;
    	}
+   	h1 {
+   	text-align: center;
+   	}
    	h2 {
    	font-size: 24px;
    	text-align: center;
+   	padding: 20px;
    	}
    	p {
    	font-family: thonburi, arial, sans-serif;
    	font-size: 12px;
+   	padding: 5px;
    	line-height: 1.5;
-   	margin: 20px;
-   	padding: 20px;
    	}
    	img {
    	border: 2px solid white;
@@ -41,15 +47,14 @@ Copyright 2013, Josh Cope
    	footer {
    	border: 2px solid white;
    	border-radius: 10px;
-   	padding: 10px;
    	background: #333366;
-   	height: 50px;
+   	height: 45px;
    	width: 996px;
    	}
    	footer p {
    	font-size: 15px;
-   	padding: 10px;
-   	margin: 10px;
+   	padding: 5px;
+   	margin: 5px;
    	float: left;
    	}
    	footer #design {
@@ -59,7 +64,52 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Page Styles
    ========================================================================== */
-
+/*==============================================================================
+	get here page
+   ========================================================================== */
+   body #text {
+   float: left;
+   margin: 30px;
+   line-height: 5px;
+   }
+   body #map img {
+   float: right;
+   margin: 30px 0px 30px 90px;
+   }
+   
+   footer {
+   clear: both;
+   }
+/* =============================================================================
+	area page
+   ========================================================================== */
+   body #textarea {
+   margin: 30px;
+   }
+/* =============================================================================
+	rh page
+   ========================================================================== */
+   h2 {
+   text-align: left;
+   }
+   body #hour {
+   border: 3px dotted #999966;
+   padding: 30px 30px 109px 30px;
+   margin: 20px 10px 20px 0px;
+   }
+   body #rate {
+   border: 3px dotted #999966;
+   padding: 30px 0px 30px 30px;
+   margin: 20px 0px 20px 15px;
+   }
+/* =============================================================================
+	about page
+   ========================================================================== */
+   body #about {
+   border: 3px dotted #999966;
+   margin: 30px;
+   padding: 40px;
+   }
 /* =============================================================================
    Media Queries
    ========================================================================== */
