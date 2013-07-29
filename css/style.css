@@ -14,16 +14,23 @@ Copyright 2013, Josh Cope
    	header {
    	width: 996px;
    	}
+   	header img{
+   	max-width: 100%
+   	}
    	nav {
    	border: 2px solid white;
    	border-radius: 10px;
    	background: #999966;
-   	height: 40px;
+   	height: 45px;
    	width: 996px;
    	}
-   	li {
+   	nav ul li {
    	display: inline;
-   	margin: 25px;
+   	border: 1px solid white;
+   	border-radius: 3px;
+   	background-color: #336699;
+   	margin: 15px;
+   	padding: 3px 5px 2px 5px;
    	}
    	h1 {
    	text-align: center;
@@ -64,6 +71,12 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Page Styles
    ========================================================================== */
+/* =============================================================================
+	home page
+   ========================================================================== */
+   body .grid_3 {
+   margin: 52px;
+   }
 /*==============================================================================
 	get here page
    ========================================================================== */
@@ -76,7 +89,6 @@ Copyright 2013, Josh Cope
    float: right;
    margin: 30px 0px 30px 90px;
    }
-   
    footer {
    clear: both;
    }
@@ -89,9 +101,6 @@ Copyright 2013, Josh Cope
 /* =============================================================================
 	rh page
    ========================================================================== */
-   h2 {
-   text-align: left;
-   }
    body #hour {
    border: 3px dotted #999966;
    padding: 30px 30px 109px 30px;
@@ -111,9 +120,30 @@ Copyright 2013, Josh Cope
    padding: 40px;
    }
 /* =============================================================================
+	contact page
+   ========================================================================== */
+   section {
+   border: 2px solid #999966;
+   }
+   
+   button {
+   float: right;
+   border: 2px solid #999966;
+   border-radius: 10px;
+   margin: 30px;
+   }
+/* =============================================================================
+	photo gallery
+   ========================================================================== */
+   #instrt {
+   text-align: center;
+   }
+   #gallery ul {
+   list-style-type: none;
+   }
+/* =============================================================================
    Media Queries
    ========================================================================== */
-
 /* Tablet Portrait size to Base 996px */
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
 
