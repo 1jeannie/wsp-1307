@@ -61,7 +61,6 @@ Copyright 2013, Josh Cope
    	footer p {
    	font-size: 15px;
    	padding: 5px;
-   	margin: 5px;
    	float: left;
    	}
    	footer #design {
@@ -116,8 +115,11 @@ Copyright 2013, Josh Cope
    ========================================================================== */
    body #about {
    border: 3px dotted #999966;
-   margin: 30px;
-   padding: 40px;
+   margin: 20px;
+   padding: 30px;
+   } 
+   body #about p {
+   line-height: 20px;
    }
 /* =============================================================================
 	contact page
@@ -144,8 +146,9 @@ Copyright 2013, Josh Cope
    clear: left;
    padding: 10px;
    }
-   .form #yes p {
+   #yes p {
    clear: left;
+   clear: right;
    }
    button {
    float: right;
