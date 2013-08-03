@@ -113,13 +113,10 @@ Copyright 2013, Josh Cope
 /* =============================================================================
 	about page
    ========================================================================== */
-   body #about {
-   border: 3px dotted #999966;
+   body #about p {
    margin: 20px;
    padding: 30px;
-   } 
-   body #about p {
-   line-height: 20px;
+   line-height: 25px;
    }
 /* =============================================================================
 	contact page
@@ -127,6 +124,8 @@ Copyright 2013, Josh Cope
    section {
    border: 2px solid #999966;
    border-radius: 10px;
+   margin: 20px;
+   padding: 20px;
    }
    .form {
    padding: 10px;
@@ -147,8 +146,7 @@ Copyright 2013, Josh Cope
    padding: 10px;
    }
    #yes p {
-   clear: left;
-   clear: right;
+   float: right;
    }
    button {
    float: right;
