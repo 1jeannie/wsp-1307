@@ -1,6 +1,6 @@
 gh-pages URL
 
-http://1jeannie.github.io/wsp-1307/index.html
+http://1jeannie.github.io/wsp-1307/wsp-1307/index.html
 
 survey URL
 
