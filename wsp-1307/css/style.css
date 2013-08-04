@@ -12,14 +12,14 @@ Copyright 2013, Josh Cope
    	padding: 20px;
    	}
    	header {
-   	width: 996px;
+   	max-width: 100%;
    	}
    	nav {
    	border: 2px solid #fff;
    	border-radius: 10px;
    	background: #999966;
    	height: 45px;
-   	width: 996px;
+   	max-width: 100%;
    	}
    	nav ul li {
    	display: inline;
@@ -47,14 +47,13 @@ Copyright 2013, Josh Cope
    	border: 2px solid #fff;
    	border-radius: 10px;
    	margin: 20px 20px 20px 0px;
-   	max-width: 100%;
    	}
    	footer {
    	border: 2px solid #fff;
    	border-radius: 10px;
    	background: #333366;
    	height: 45px;
-   	width: 996px;
+   	max-width: 100%;
    	}
    	footer p {
    	font-size: 15px;
@@ -167,10 +166,45 @@ Copyright 2013, Josh Cope
    Media Queries
    ========================================================================== */
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+nav {
+border: none;
+background: none;
+}
+nav ul li {
+display: inline;
+margin: 2px;
+}
+body .grid_3 {
+margin: 24px;
+}
+}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+body {
+background: #999966;
+}
+nav {
+border: none;
+background: none;
+}
+nav ul li {
+display: block;
+margin: 2px;
+float: left;
+}
+footer {
+border: none;
+background: none;
+}
+footer p {
+color: #333366;
+}
+footer #design {
+float: none;
+}
+}
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
